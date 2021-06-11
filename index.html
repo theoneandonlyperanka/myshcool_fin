@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My School</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Train+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+
+    <nav class="navbar-inverse my_nav_bar">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#mynavbar">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="https://www.iowacityschools.org/Domain/182">Norman Borlaug Elementary School</a>
+        </div>
+        <div class="collapse navbar-collapse" id="mynavbar">
+            <ul class="nav navbar-nav">
+                <li class="links"><a href="#campusL">Campus life</a></li>
+                <li class="links"><a href="#achievements">Achievements</a></li>
+                <li class="links"><a href="#whatsnew">What’s New</a></li>
+                <li class="links"><a href="#alumni">Alumni</a></li>
+                <li class="links"><a href="#contact">Contact Us</a></li>
+            </ul>
+        </div>
+        <div class="announcement">
+            <marquee id="marqueeStyle" onmouseover="this.stop();" onmouseout="this.start();">
+                *** Feel free to ask any queries on school@gmail.com ***
+            </marquee>
+            <br> <br>
+        </div>
+        <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/dk-9Y7BaQrw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </nav>
+
+    <section id="campusL">
+        <h1>Campus Life</h1>
+        <hr>
+        <div class="line"></div>
+        <div class="row">
+            <div class="travel_mainDiv">
+                <img class="img-responsive" src="art%20room.jpeg">
+                <h4><kbd>Art room</kbd></h4>
+                <hr>
+
+                <h5 class="text-success text-left">
+                    Was built in 2012
+                </h5>
+                <p class="text-muted text-left">This is my schools art room where we make awesome art!</p>
+            </div>
+
+            <br>
+            <div class="travel_mainDiv">
+                <img class="img-responsive" src="gym.jpeg">
+                <h4><kbd>Gym</kbd></h4>
+                <hr>
+
+                <h5 class="text-success text-left">
+                    Was built in 2012
+                </h5>
+                <p class="text-muted text-left">This is my schools gym where we do excersises and play fun games.</p>
+            </div>
+            <br> <br>
+
+            <div class="travel_mainDiv">
+                <img class="img-responsive" src="library.jpeg">
+                <h4><kbd>Library</kbd></h4>
+                <hr>
+
+                <h5 class="text-success text-left">
+                    Was built in 2012
+                </h5>
+                <p class="text-muted text-left">This is my schools library where we check out cool books and read.</p>
+            </div>
+        </div>
+
+    </section>
+    <br> <br>
+
+    <div id="achievements">
+        <h2 class="text-capitalize">school achievements</h2>
+        <hr>
+    </div>
+    <div class="bg-primary movie_head" data-toggle="collapse" data-target="#school_achievement1">
+        Test Scores
+    </div>
+    <br>
+    <div id="school_achievement1" class="collapse">
+        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12" id="achievementsID">
+            <img src="outside.jpeg" class="img-responsive img-thumbnail">
+        </div>
+    </div>
+
+    <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12 movie_text">
+        <h5 class="text-success text-left text-capitalize">Norman Borlaug Elementary School placed in the top 50% of all schools in Iowa for overall test scores</h5>
+        <p>Math proficiency is top 50%, and reading proficiency is top 50%</p>
+    </div>
+
+
+    <br><br>
+    <br><br>
+    <br><br>
+    <ul class="list-group">
+        <h2>What's new??</h2>
+        <hr>
+
+        <li id="whatsnew" class="list-group-item list-group-item-success col-lg-12 col-md-12 col-sm-12 col-xs-12 environment_li">
+            <h4>Graduation!!</h4>
+            <img src="graduation-guide.jpeg" class="img-responsive col-lg-5 col-md-5 col-sm-5 col-xs-12">
+            <p class="list-group-item-text col-lg-7 col-md-7 col-sm-7 col-xs-12">
+                Its the end of the year and the 6th grade is graduating and heading to JUNIOR HIGH!!!
+            </p>
+        </li>
+    </ul>
+
+    <br><br>
+    <br><br>
+
+   <section id="alumini">
+       <hr>
+           <div class="page-header col-lg-12 col-md-12 col-sm-12 col-xs-12" id="alumni">
+      <h2 class="text-capitalize ">Our Alumini</h2>
+  </div>
+
+
+  <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 book" id="aluminiList" data-toggle="modal" data-target="#school_alumni1">
+    <img src="MacKay_Ian0007.jpeg" class="img-responsive">
+    <hr>
+    <p class="text-primary">Ian MacKay</p>
+  </div>
+  <div class="modal fade" id="school_alumni1" style="display: none;">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">×</button>
+          <h4 class="modal-title">Ian MacKay</h4>
+        </div>
+        
+        <div class="modal-body">
+          <img src="MacKay_Ian0007.jpeg" class="img-responsive img_modal">
+          <p class="p_modal">He is a 6th grade teacher at borlaug elementary and he is a really great teacher. He also briefly tought kindergarten.<br>
+          <a href="https://twitter.com/IowaCitySchools/status/910542248693006336/photo/1" target="_blank"><b>To Know More</b></a>
+           </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 book" id="aluminiList" data-toggle="modal" data-target="#school_alumni2">
+    <img src="Mary-Gauthier.png" class="img-responsive">
+    <hr>
+   <p class="text-primary">Mary Gauthier</p>
+  </div>
+  <div class="modal fade" id="school_alumni2" style="display: none;">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">×</button>
+          <h4 class="modal-title">Mary Gauthier</h4>
+        </div>
+        
+        <div class="modal-body">
+          <img src="Mary-Gauthier.png" class="img-responsive img_modal">
+          <p class="p_modal">Mary is the secretary of borlaug.<br>
+          <a href="http://borlaugelementary.blogspot.com/2014/12/mrs-gauthier-recieves-shine-award.html" target="_blank"><b>To Know More</b></a>
+           </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 book" id="aluminiList" data-toggle="modal" data-target="#school_alumni3">
+    <img src="sarahR.jpeg" class="img-responsive">
+    <hr>
+    <p class="text-primary">Sarah Rheaume</p>
+  </div>
+  <div class="modal fade" id="school_alumni3" style="display: none;">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">×</button>
+          <h4 class="modal-title">Sarah Rheaume</h4>
+        </div>
+        
+        <div class="modal-body">
+          <img src="sarahR.jpeg" class="img-responsive img_modal">
+          <p class="p_modal">She is an elementary school band teacher. <br>
+          <a href="https://www.linkedin.com/in/sarah-rheaume-81465a157" target="_blank"><b>To Know More</b></a>
+           </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 book" id="aluminiList" data-toggle="modal" data-target="#school_alumni4">
+    <img src="Shoppa_Celeste1097.jpeg" class="img-responsive">
+    <hr>
+    <p class="text-primary">Celeste Shppa</p>
+  </div>
+  <div class="modal fade" id="school_alumni4">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">×</button>
+          <h4 class="modal-title">Celeste Shoppa</h4>
+        </div>
+        
+        <div class="modal-body">
+          <img src="Shoppa_Celeste1097.jpeg" class="img-responsive img_modal">
+          <p class="p_modal">She is the amazing principal of my elementary school and former Roosevelt staff.<br>
+          <a href="https://www.twinkl.com/school-directory/school-lookup/norman-borlaug-elementary-school-157218" target="_blank"><b>To Know More</b></a>
+           </p>
+        </div>
+      </div>
+    </div>
+  </div>
+                
+            </section>
+    <br><br>
+    <br><br>
+    <br><br>
+    <br><br>
+    <br><br>
+    <br><br>
+    <br><br>
+    <br><br>
+    <br><br>
+    <br><br>
+    <br><br>
+    <br><br>
+    <br><br>
+    <br><br>
+    <br><br>
+    <br><br>
+    <br><br>
+    <br><br>
+    <br><br>
+    <br><br>
+    <br><br>
+    <section id="contact">
+        <h1>Contact Us</h1>
+        <div class="line"></div>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2980.321002048782!2d-91.60308558537241!3d41.67041032546514!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x87e44401d31f3c11%3A0x5087a3f78537b0af!2sNorman%20Borlaug%20Elementary%20School!5e0!3m2!1sen!2sus!4v1622639961955!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        <br>
+        <a class="contact_1" href="https://www.google.com/gmail/" target="_blank">
+            <i class="fa fa-envelope"></i>&nbsp;&nbsp;<h3> gmail: school@gmail.com</h3>
+        </a>
+        <br>
+
+        <a class="contact_1" href="https://www.instagram.com/explore/locations/253336516/borlaug-elementary-school/" target="_blank">
+            <i class="fab fa-instagram"></i>&nbsp;&nbsp;<h3>instagram id: Borlaug Elementary School</h3>
+        </a>
+    </section>
+
+</body>
+
+</html>
